@@ -98,3 +98,56 @@ header{
     text-align: center;
     align-items: center;
 }
+
+.InfoLogin{
+    display: inline-block;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: start;
+    padding: 1px 2px;
+    text-align: center;
+    flex-direction: column;
+}
+.login{
+    border: 3px solid black;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: 7%;
+    margin-left: 38%;
+}
+
+.login .email{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.login .password{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.login .button{
+    font-size: 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    padding: 0 93.5px;
+}
+.name .appname{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.InfoLogin .forgotpassword{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.InfoLogin .signup{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.InfoLogin .dontaccount{
+    margin-top: 220px;
+}
+
