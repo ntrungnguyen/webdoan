@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .taskbarsetting .border{
+            background-color: black;
+            color: white;
+            border: 7px solid black;
+            border-radius: 10px;
+        }
+        .taskbarsetting .animation:hover{
+            background-color: black;
+            color: white;
+            border: 7px solid black;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="TaskBar">
+        <div class="appName">
+            <a href="home.html">Social Network</a>
+        </div>
+        <div class="Search">
+            <input type="text" placeholder="Search" size="30px">
+        </div>
+        <div class="homeProfile">
+            <li>
+                <a href="home.html">Home</a>
+                <a href="MyProfile.html">My profile</a>     
+            </li>
+        </div>
+    </div>
+
+    <div class="taskbarsetting">
+        <div class="taskbarprofile">
+            <ul>
+                <li>
+                    <a href="EditProfile.html" class="border">Edit Profile</a>
+                </li>
+                <li>
+                    <a href="ChangePassword.html" class="animation">Change Password</a>
+                </li>
+            </ul>
+        </div>
+        <div class="editprofile--main">
+            <div class="editprofile--name">
+                <a>User name</a>
+                <input type="text" placeholder="Input name">
+            </div>
+            <div class="editprofile--male">
+                <a>Male</a>
+                <input type="text" placeholder="Choose male">
+            </div>
+            <button class="editprofile--button" type="button">Accept</button>
+        </div>
+    </div>
+</body>
+</html>
