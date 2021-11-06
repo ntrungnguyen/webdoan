@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="TaskBar">
-        <div class="appName">
+        <div class="taskbar--name">
             <a href="home.html">Social Network</a>
         </div>
         <div class="Search">
@@ -17,21 +17,22 @@
         </div>
         <div class="homeProfile">
             <li>
-                <a href="home.html">Home</a>
-                <a href="MyProfile.html">My profile</a>     
+                <a href="home.html" class="homeProfile--home">Home</a>
+                <a href="MyProfile.html" class="homeProfile--myprofile">My profile</a>     
             </li>
         </div>
     </div>
-    <body>
-        <section class="main">        
-            <img src="" class="changePicture" alt="Ảnh đại diện">
-            <section class="Info">
-                <h2 class="infoName">User name</h2>
-                <p>2 post, 40 followers, Following 30 users </p>
-                <li class="editprofile2"><a href="Setting.html" class="editprofile">Setting</a></li>
+    <div class="myprofile--main">
+            <div class="myprofile--avatar">
+                <img src="" alt="Avatar">
+            </div>
+            <section class="myprofile--info">
+                <h2>User name</h2>
+                <p>2 post, 40 followers, Following 30 users</p>
+                <li>
+                    <a href="Setting.html" class="myprofile--setting">Setting</a>
+                </li>
             </section>
-        </section>
-
-    </body>
+    </div>
 </body>
 </html>
